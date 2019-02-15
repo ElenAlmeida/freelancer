@@ -51,6 +51,7 @@ li{
 }
 .initial p{
   font-size: 20px;
+  margin-top: 30px;
 }
 .title{
   width: 1348px;
@@ -65,16 +66,23 @@ li{
   color: white;
   font-weight: bold;
 }
-
-.fa-star::after{
-  content: '';
-  display: inline-block;
-  text-align: justify;
-  margin-right: 20px;
-  width: 100px;
+.initial hr{
+  margin-top: 20px;
+  margin-left: 550px;
+  background-color: white;
+  width: 250px;
   height: 5px;
-  background-color: white;  
 }
+.fa-star{
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -20px;
+  position: absolute;
+  border: 2px;
+  background: #18bc9c;
+}
+
 .container{
   width: 1300px;
   height: 500px;
@@ -97,7 +105,7 @@ li{
 footer{
   width: 1348px;
   height: 300px;
-  background: #212529;
+  background: #2c3e50;
   text-align: center; 
   color: white; 
 }
@@ -127,13 +135,17 @@ input, textarea{
   font-size: 20px;  
   size: 100px; 
 }
+
+textarea{
+  height: 100px;
+}
 input[type=submit]{
   width: 100px;
   height: 20px;
-  background: #18bc9c;
-  top: 20px;
+  background: #18bc9c; 
   margin: 30px;
   color: white;
+  text-align: center;
 }
 hr{
   background-color: rgb(241, 227, 227);
@@ -141,17 +153,17 @@ hr{
   height: 1px;
 }
 .rodape-container{
-  width: 1000px;
+  width: 1348px;
   display: flex;
   align-items: center;
-  justify-content: space-around; 
+  justify-content: flex-start; 
   
 }
-.box-one, .box-two, box-three{
+.box-one, .box-two, .box-three{
   text-align: center;
-  width: 100px;
+  width: 200px;
   height: 30px;
-  padding: 80px;
+  padding: 100px;
 }
 
 
