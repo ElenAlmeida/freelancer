@@ -122,6 +122,14 @@ footer{
 .about h1{
   font-size: 40px;
 }
+button{
+  width: 90px;
+  height: 65px;
+  background: #18bc9c;
+  border-color: white;
+  border: 5px;
+  color: white;
+}
 .form{
   height: 400px;
   display: flex;
