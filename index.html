@@ -3,93 +3,110 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href = "https://fonts.googleapis.com/css?family= Lato | Montserrat " rel = "folha de estilo">
+    <title>Projeto Freelancer</title> 
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body class="body">
+    <div class="nav-bar">
       <nav class="menu">
-          <h1>START BOOTSTRAP</h1>       
-          <ol>
-              <li>PORTFOLIO</li>
-              <li>ABOUT</li>
-              <li>CONTACT</li>
-          </ol>
-      </nav>        
-      <section class="initial">
-          <img src="assets/images/profile.png">
-          <h2>START BOOTSTRAP</h2>
-          <hr/><i class="fas fa-star"></i>          
-          <p>Web Developer- Graphic Artist- User Experience Designer</p>
-      </section>
-      <section class="image">
-        <div class="title">
-           <h2>PORTFOLIO</h2>           
+        <h1 class="box-a">START BOOTSTRAP</h1>        
+            <ol class="box-b">
+              <li class="item">PORTFOLIO</li>
+              <li class="item">ABOUT</li>
+              <li class="item">CONTACT</li>
+            </ol>
+      </nav> 
+    </div>   
+     <section class="initial">
+        <img src="./assets/images/profile.png" class="imgInitial">
+        <h1 class="titleOne">START BOOTSTRAP</h1>
+        <div class="makeUpStar">
+          <hr class="star"> 
+          <i class="fas fa-star"></i>
         </div>
-        <div class="container">
-          <img src="assets/images/portfolio/cabin.png" class="figure">
-          <img src="assets/images/portfolio/cake.png" class="figure">
-          <img src="assets/images/portfolio/circus.png" class="figure">
-          <img src="assets/images/portfolio/game.png" class="picture">
-          <img src="assets/images/portfolio/safe.png" class="picture">
-          <img src="assets/images/portfolio/submarine.png" class="picture">
-        </div>
+        <p>Web Developer- Graphic Artist- User Experience Designer</p>
       </section>
-      <article class="about">
-            <div class="title">
-                <h2 class="titleAbout">ABOUT</h2>                
-            </div>
-            <div class="about-container">
-                <P>
-                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-                </P>
-                <p>
-                    Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
-                </p>
-             </div>
-            <button>Download Theme</button>        
-      </article>
-      <section class="contact">
+      <section class="image">        
           <div class="title">
-              <h2>CONTACT ME</h2>
+              <h1 class="titleTwo">PORTFOLIO</h1>                         
           </div>
-          <div class="form">
-          <form>            
-              <input type="text" placeholder="Name"/>
-              <hr/>
-              <input type="text" placeholder="Email Address"/> 
-              <hr/>           
-              <input type="text" placeholder="Phone Number" />
-              <hr/>         
-              <textarea placeholder="Message"></textarea>
-              <hr/>
-              <input type="submit" value="Send" />
-          </form>
+          <div class="makeUpStar">
+         <hr class="starBlack">
+         <i class="fas fa-star fa-black"></i>
           </div>
+          <div id="container">
+              <img src="./assets/images/portfolio/cabin.png" class="img">
+              <img src="./assets/images/portfolio/cake.png" class="img">
+              <img src="./assets/images/portfolio/circus.png" class="img">
+              <img src="./assets/images/portfolio/game.png" class="img">
+              <img src="./assets/images/portfolio/safe.png" class="img">
+              <img src="./assets/images/portfolio/submarine.png" class="img">
+          </div>        
       </section>
-      <footer class="rodape">
-          <div class="rodape-container"> 
-              <div class="box-one">
-                <h2>LOCATION</h2>
-                <p>2215 John Daniel Drive Clark, MO 65243</p>
-              </div>
-              <div class="box-two">
-                <h2 >AROUND THE WEB</h2>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-dribbble"></i>
-              </div>
-              <div class="box-three">
-                <h2>ABOUT FREELANCER</h2>
-                <p>
-                Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap. 
-                </p>
-              </div>  
+      <article class="about">        
+          <h2 class="titleTwo">ABOUT</h2>
+         <div class="makeUpStar">
+           <hr class="star">
+           <i class="fas fa-star"></i>
+         </div>                  
+        <div class="title">
+          <P class="paragraph">
+            Freelancer is a free bootstrap theme <br>created by Start Bootstrap. The <br>
+            download includes the complete source <br>files including HTML, CSS, and <br>
+            JavaScript as well as optional LESS <br>stylesheets for easy customization.
+          </P>
+          <p class="paragraph">
+              Whether you're a student looking to <br>showcase your work, a professional <br>
+              looking to attract clients, or a graphic <br>artist looking to share your projects, this <br>
+              template is the perfect starting point!
+          </p>
+        </div>
+        <div class="button">
+        <button class="btnDownload"> <i class="fas fa-download"></i>  Download Theme</button>
+        </div>
+      </article>
+      <section class="contacMe">
+          <div class="title">
+          <h2>CONTACT ME</h2>
           </div>
+          <div class="makeUpStar">
+            <hr class="starBlack">
+            <i class="fas fa-star fa-black"></i>
+          </div>
+          <form class="form">            
+            <input type="text" placeholder="Name" class="input"/>         
+            <input type="text" placeholder="Email Address" class="input" />
+            <input type="text" placeholder="Phone Number" class="input" />
+            <textarea placeholder="Message" class="input textarea"></textarea>     
+          </form>
+          <div class="myButton">
+              <button class="btn">Send</button>
+          </div>
+          
+      </section>
+      <footer class="finalFooter">
+        <div class="about">
+          <h2>LOCATION</h2>
+          <p class="infLocation">3481 Melrose Place Beverly Hills, CA 90210</p>
+        </div>
+        <div class="about">
+          <h2>AROUND THE WEB</h2>
+          <div class="icones">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-google-plus-g" ></i>
+            <i class="fab fa-twitter" ></i>
+            <i class="fab fa-linkedin-in" ></i>
+            <i class="fab fa-dribbble" ></i>
+          </div>
+        </div>
+        <div class="about">
+          <h2>ABOUT FREELANCER</h2>
+          <p class="infLocation aboutFree">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap. 
+          </p>
+        </div> 
       </footer> 
-      
+    <script src="script.js"></script>
   </body>
 </html>
